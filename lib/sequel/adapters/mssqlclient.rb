@@ -1,4 +1,4 @@
-require 'system.data'
+require 'System.Data'
 Sequel.require 'adapters/shared/mssql'
 include System::Data
 include System::Data::SqlClient
